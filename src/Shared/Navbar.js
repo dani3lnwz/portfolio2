@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../images/na.png'
 
 const Navbar = () => {
     return (
@@ -16,8 +17,9 @@ const Navbar = () => {
 
                     </ul>
                 </div>
+                <img className='pl-10' src={logo} alt="" />
             </div>
-            <div class="navbar-end pr-12 hidden lg:flex text-white font-semibold">
+            <div class="navbar-end pr-12 hidden lg:flex text-white font3 font-semibold">
                 <ul class="menu menu-horizontal p-0 ">
                     <li className='hover:text-pink-700'><Link to='/home'>Home</Link></li>
                     <li className='hover:text-pink-700'><Link to='/projects'>Projects</Link></li>

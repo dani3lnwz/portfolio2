@@ -1,0 +1,29 @@
+.font1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.mainBody {
+    background: url(https://flevix.com/wp-content/uploads/2020/01/Fade-In-Background.svg?fbclid=IwAR2HQnwlCdwNs_X0slzyeOveC7YyXZBgsU2ysgNsf4llB755XIpNgzhu1UY);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.projectBody {
+    background: url(https://flevix.com/wp-content/uploads/2020/01/Black-Animation-Background.svg);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.contactBody {
+    background: url(https://flevix.com/wp-content/uploads/2019/12/bubble-animated-background.svg);
+    background-attachment: fixed;
+    background-position: center;
+}

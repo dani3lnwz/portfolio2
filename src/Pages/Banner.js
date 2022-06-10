@@ -2,35 +2,53 @@ import React from 'react';
 import image from '../images/my-bg2.png'
 import { SocialIcon } from 'react-social-icons';
 import TypeAnimation from 'react-type-animation';
+import './Styles.css'
 
 const Banner = () => {
     return (
-        <div>
-            <div class="hero min-h-screen bg-black">
+        <div className='contactBody'>
+            <div class="hero min-h-screen">
                 <div class="hero-content flex-col lg:flex-row">
                     <div className='lg:w-2/4'>
                         <img src={image} alt='' />
                     </div>
                     <div className='text-white lg:p-20'>
                         <p>HI THERE! I'M,</p>
-                        <h1 className="text-4xl mb-2 font-bold text-pink-700 font-thin">Nargis Akther</h1>
-
-                        <h4 className='text-pink-700 text-2xl'>
+                        <h1 className="border-l-4 border-orange-700 pl-3 mt-2 text-4xl mb-2 font3  text-orange-700 ">Nargis Akther</h1>
+                        <h1 className='border-l-2 border-pink-700 pl-3 mt-2 text-2xl mb-2 font1 text-pink-700 font-bold'>Front-End Developer</h1>
+                        <h4 className='text-slate-500 text-2xl'>
                             <div>
+                                <span className='text-white font2'>Expertise On </span>
                                 <TypeAnimation
+                                    className='border-l-2 border-slate-500 pl-3 mt-2'
+                                    speed={10}
                                     cursor={true}
                                     sequence={[
-                                        'Front-End Web Developer',
+                                        'HTML5',
                                         2000,
-                                        'React.js Developer',
+                                        'CSS3',
+                                        2000,
+                                        'Javascript',
+                                        2000,
+                                        'Bootstrap',
+                                        2000,
+                                        'Tailwind css',
+                                        2000,
+                                        'React.js',
+                                        2000,
+                                        'Node.js',
+                                        2000,
+                                        'Firebase',
+                                        2000,
+                                        'MongoDB',
                                         2000,
                                     ]}
-                                    wrapper="h2"
+                                    wrapper="div"
                                     repeat={Infinity}
                                 />
                             </div>
                         </h4>
-                        <p class="py-6 text-xl">passionate about creating interactive applications and experiences on web.</p>
+                        <p class="py-6 text-xl font3">Passionate about Creating Interactive Applications and Developed Web Applications.</p>
 
                         <div>
                             <div className='flex flex-col lg:flex-row items-center'>
