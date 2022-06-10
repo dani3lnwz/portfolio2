@@ -27,3 +27,15 @@
     background-attachment: fixed;
     background-position: center;
 }
+
+.detailsBody {
+    background: url(https://flevix.com/wp-content/uploads/2019/12/Motion-Background.svg);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.blogsBody {
+    background: url(https://flevix.com/wp-content/uploads/2019/12/Live-Wave-Background.svg);
+    background-attachment: fixed;
+    background-position: center;
+}

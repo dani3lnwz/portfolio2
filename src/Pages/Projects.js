@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import project1 from '../images/project1.png'
 import project2 from '../images/projects2.png'
 import project3 from '../images/projects3.png'
+import Project from './Project';
 import './Styles.css'
 
 const Projects = () => {
+    const [projects, setProjects] = useState([])
+    useEffect(() => {
+        fetch('projects.json')
+            .then(res => res.json())
+            .then(data => setProjects(data))
+    }, [])
     return (
         <div className='projectBody pb-20'>
             <div className='text-center text-white  py-16'>
@@ -12,7 +19,13 @@ const Projects = () => {
                 <progress class="progress w-48 lg:w-80 "></progress>
             </div>
             <div className=' lg:max-screen grid grid-cols-1 lg:grid-cols-3 gap-10 lg:px-8 px-4'>
-                <div class="border-l-8 border-pink-700 card rounded lg:max-screen bg-slate-900 shadow-xl">
+                {
+                    projects.map(project => <Project
+                        key={project.id}
+                        project={project}
+                    ></Project>)
+                }
+                {/* <div class="border-l-8 border-pink-700 card rounded lg:max-screen bg-slate-900 shadow-xl">
                     <figure class="lg:px-6 lg:pt-6">
                         <img src={project1} alt="Shoes" class="rounded" />
                     </figure>
@@ -53,7 +66,7 @@ const Projects = () => {
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );

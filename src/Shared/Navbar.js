@@ -13,16 +13,20 @@ const Navbar = () => {
                     <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li className='hover:text-pink-700'><Link to='/home'>Home</Link></li>
                         <li className='hover:text-pink-700'><Link to='/projects'>Projects</Link></li>
+                        <li className='hover:text-pink-700'><Link to='/about'>About me</Link></li>
+                        <li className='hover:text-pink-700'><Link to='/blogs'>Blogs</Link></li>
                         <li className='hover:text-pink-700'><Link to='/contact'>Contact</Link></li>
 
                     </ul>
                 </div>
                 <img className='pl-10' src={logo} alt="" />
             </div>
-            <div class="navbar-end pr-12 hidden lg:flex text-white font3 font-semibold">
+            <div class="navbar-end pr-12 hidden lg:flex text-white font3">
                 <ul class="menu menu-horizontal p-0 ">
                     <li className='hover:text-pink-700'><Link to='/home'>Home</Link></li>
                     <li className='hover:text-pink-700'><Link to='/projects'>Projects</Link></li>
+                    <li className='hover:text-pink-700'><Link to='/about'>About me</Link></li>
+                    <li className='hover:text-pink-700'><Link to='/blogs'>Blogs</Link></li>
                     <li className='hover:text-pink-700'><Link to='/contact'>Contact</Link></li>
                 </ul>
             </div>
