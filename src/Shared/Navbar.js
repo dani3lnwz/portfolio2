@@ -16,6 +16,9 @@ const Navbar = () => {
                         <li className='hover:text-pink-700'><Link to='/about'>About</Link></li>
                         <li className='hover:text-pink-700'><Link to='/blogs'>Blogs</Link></li>
                         <li className='hover:text-pink-700'><Link to='/contact'>Contact</Link></li>
+                        <Link to='/contact'>
+                            <button className='btn btn-outline text-pink-700 px-6 hover:bg-pink-700'>HIRE ME</button>
+                        </Link>
 
                     </ul>
                 </div>

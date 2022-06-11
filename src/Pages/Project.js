@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Project = ({ project }) => {
     const { id, name, img1, description, live } = project
     return (
-        <div class="border-l-8 border-pink-700 card rounded lg:max-screen bg-slate-900 shadow-xl">
+        <div class="border-l-8 border-orange-700 card rounded lg:max-screen bg-slate-900 shadow-xl">
             <figure class="lg:px-6 lg:pt-6">
                 <img src={img1} alt="Shoes" class="rounded" />
             </figure>
