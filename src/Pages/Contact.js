@@ -24,7 +24,7 @@ const Contact = () => {
         <div className='mainBody pb-20'>
             <div className='text-center text-white  py-16'>
                 <h1 className=' lg:text-5xl text-4xl mb-2 font3'>Contact Me</h1>
-                <progress class="progress w-48 lg:w-64 "></progress>
+                <progress class="progress w-52 lg:w-72 "></progress>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 '>
                 <div className='px-16 text-white'>

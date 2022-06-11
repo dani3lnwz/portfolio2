@@ -14,38 +14,32 @@ const ProjectDetails = () => {
 
     return (
         <div className='detailsBody lg:p-20'>
-            <h1 className='text-4xl text-orange-700 font3 text-center mb-12'>"{selectedProject?.name}"</h1>
+
             <div className='bg-black p-6 '>
-                <h1 className='text-3xl py-8 text-center text-white font1 font-bold '>Project Overview</h1>
+                <div className='py-8 text-center'>
+                    <h1 className='text-4xl  text-pink-700 font1 font-bold '>Project Overview</h1>
+                    <progress class="progress w-80 "></progress>
+                </div>
                 <div className='flex flex-col lg:flex-row gap-5 items-center bg-slate-800 p-10'>
                     <div><img src={selectedProject?.img1} alt="" /></div>
                     <div><img src={selectedProject?.img2} alt="" /></div>
                     <div><img src={selectedProject?.img3} alt="" /></div>
                 </div>
+                <h1 className='text-4xl text-white font3 text-center my-10'>"{selectedProject?.name}"</h1>
                 <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 items-center pt-6'>
                     <div className='py-8 text-white lg:border-r-4 border-pink-700 pr-18'>
                         <h1 className='text-2xl font3 text-pink-700'>Features</h1>
                         <ul className='ml-4'>
-                            <li type='disc'>
-                                Lorem ipsum dolor sit amet.
-                            </li>
-                            <li type='disc'>
-                                Lorem ipsum dolor sit amet.
-                            </li>
-                            <li type='disc'>
-                                Lorem ipsum dolor sit amet.
-                            </li>
-                            <li type='disc'>
-                                Lorem ipsum dolor sit amet.
-                            </li>
-                            <li type='disc'>
-                                Lorem ipsum dolor sit amet.
-                            </li>
+                            {
+                                selectedProject?.features.map(feature => <li type='disc'>
+                                    {feature}
+                                </li>)
+                            }
                         </ul>
                     </div>
                     <div className='lg:border-r-4 border-pink-700 pr-18'>
                         <h1 className='text-2xl font3 text-pink-700'>Used Technologies</h1>
-                        <p className='text-white text-md'>React, Tailwind, DaisyUI, Firebase, MongoDB, Node.js, Stripe, JWT,</p>
+                        <p className='text-white text-md'>{selectedProject?.technologies}</p>
                     </div>
                     <div className='flex'>
                         <div class="card-actions mr-2">

@@ -9,7 +9,14 @@
         "img2": "https://i.ibb.co/J7hSZmp/paint2.png",
         "img3": "https://i.ibb.co/L5kgT0Q/paint3.png",
         "description": "Paint pro is a manufacturer website. Worked to order the tools by maintaining a range of quantities.",
-        "technologies": ""
+        "technologies": "React, Tailwind, DaisyUI, Firebase, MongoDB, Node.js, Stripe, JWT,",
+        "features": [
+            "Worked to order the tools by maintaining a range of quantities.",
+            "Applied email password and Google login authentication system.",
+            "Verified by JWT token.",
+            "Controlled user activity and website management by Admin Panel.",
+            "Tested Card payment method."
+        ]
     },
     {
         "id": 2,
@@ -21,7 +28,14 @@
         "img2": "https://i.ibb.co/PcM7HrZ/laptop2.png",
         "img3": "https://i.ibb.co/XYRc0RQ/laptop3.png",
         "description": "Laptop mart is a warehouse management website.Handled restocked and delivered product quantity.",
-        "technologies": ""
+        "technologies": "React, Bootstrap, Firebase, MongoDB, Node.js, JWT, Axios.",
+        "features": [
+            "Handled restocked and delivered product quantity.",
+            "Verified user by an email-password-based or social login authentication system.",
+            "It has warehouse management system with CRUD operation.",
+            "Developed for added new products",
+            "Developed for manage all products"
+        ]
     },
     {
         "id": 3,
@@ -33,7 +47,14 @@
         "img2": "https://i.ibb.co/fCyGck5/gym2.png",
         "img3": "https://i.ibb.co/Mc8CPrp/gym3.png",
         "description": "Gym Trainer is an Independent service provider website. Provide different kind of services.",
-        "technologies": ""
+        "technologies": "React, React Bootstrap, React Router, Firebase, React firebase hooks.",
+        "features": [
+            "This is a Independent service peovider website.",
+            "It has user Login,Sign up and Sign out system.",
+            "This project has Email-Password authentication system.",
+            "It has also a social login authentication like Google.",
+            "This project has a protected route which is redirect by user login."
+        ]
     },
     {
         "id": 4,
@@ -45,7 +66,14 @@
         "img2": "https://i.ibb.co/J7pCDD4/eye2.png",
         "img3": "https://i.ibb.co/4V5FcX4/eye3.png",
         "description": "Eye Glass Corner is a customer review website.",
-        "technologies": ""
+        "technologies": "React, CSS3, Javascript, React Router, Recharts",
+        "features": [
+            "Eyeglass Corner is customer review website.",
+            "It has Routing system using react router",
+            "Initialize custom link on navbar.",
+            "Implemented LineChart and Barchart on dashboard",
+            "Review displayed on review page"
+        ]
     },
     {
         "id": 5,
@@ -57,7 +85,14 @@
         "img2": "https://i.ibb.co/jZ3bdjJ/hall2.png",
         "img3": "https://i.ibb.co/BPzb8WF/hall3.png",
         "description": "Khushiara Convention Hall is a static demo of convention centre.",
-        "technologies": ""
+        "technologies": "HTML5, CSS3, Bootstrap",
+        "features": [
+            "Kushiara convention hall is a convention website static layout.",
+            "Applied bootstrap slider on banner",
+            "Used bootstrap accordian for Frequently Asked Questions",
+            "Applied bootstrap card for services",
+            "Implemented a badge for card and toast for services"
+        ]
     },
     {
         "id": 6,
@@ -67,8 +102,15 @@
         "server": "",
         "img1": "https://i.ibb.co/whJgXFf/bank1.png",
         "img2": "https://i.ibb.co/1fpMr9H/bank2.png",
-        "img3": "https://i.ibb.co/VM6Fh6v/bank3.png",
+        "img3": "https://i.ibb.co/26ySJfB/bank3.png",
         "description": "Standard Bank is a static demo of bank management website",
-        "technologies": ""
+        "technologies": "HTML5, CSS3, Javascript, Bootstrap",
+        "features": [
+            "Standard bank has static login and signup system ",
+            "Implemented bank deposite calculation",
+            "Applied bank withdraw calculation",
+            "Used bootstrap features for home page design",
+            "Implemented a dynamic footer"
+        ]
     }
 ]
