@@ -34,28 +34,28 @@ const Contact = () => {
                         <FontAwesomeIcon className='text-2xl text-pink-700' icon={faUserAlt}></FontAwesomeIcon>
                         <div>
                             <h1 className='text-md font-semibold'>Name</h1>
-                            <h1 className='text-md'>Nargis Akther</h1>
+                            <h1 className='text-md'>Tuhuran Newaz Daniel</h1>
                         </div>
                     </div>
                     <div className='flex items-center gap-5  pb-4'>
                         <FontAwesomeIcon className='text-2xl text-pink-700' icon={faPhone}></FontAwesomeIcon>
                         <div>
                             <h1 className='text-md font-semibold'>Phone</h1>
-                            <h1 className='text-md'>+8801939860072</h1>
+                            <h1 className='text-md'>+8801785989100</h1>
                         </div>
                     </div>
                     <div className='flex items-center gap-5  pb-4'>
                         <FontAwesomeIcon className='text-2xl text-pink-700' icon={faEnvelope}></FontAwesomeIcon>
                         <div>
                             <h1 className='text-md font-semibold'>Email</h1>
-                            <h1 className='text-md'>nargisakther1933@gmail.com</h1>
+                            <h1 className='text-md'>danielnwz420@gmail.com</h1>
                         </div>
                     </div>
                     <div className='flex items-center gap-5  pb-4'>
                         <FontAwesomeIcon className='text-2xl text-pink-700' icon={faMapMarkerAlt}></FontAwesomeIcon>
                         <div>
                             <h1 className='text-md font-semibold'>Address</h1>
-                            <h1 className='text-md'>North Patenga, Chattogram</h1>
+                            <h1 className='text-md'>D.Chandpur Nazir Bari, Comilla</h1>
                         </div>
                     </div>
                 </div>

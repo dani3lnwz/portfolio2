@@ -12,7 +12,7 @@ const About = () => {
                 <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 items-center py-6'>
                     <div className='py-8 text-white lg:border-r-4 border-orange-700 pr-18'>
                         <h1 className='text-2xl font3 font-ahite'>Education</h1>
-                        <p>At present I'm a student. I studying in Diploma Engineering at Chattogram Mohila Polytechnic Institute department of Computer Technology.</p>
+                        <p>I am Web developer. Completed my bachelor degree from Independent University Of Bangladesh</p>
                     </div>
 
                     <div className='py-8 text-white lg:border-r-4 border-orange-700 pr-18'>
